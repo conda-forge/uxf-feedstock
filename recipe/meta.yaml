@@ -19,6 +19,7 @@ requirements:
     - pip
     - python >=3.8
   run:
+    - editabletuple
     - python >=3.8
 
 test:
