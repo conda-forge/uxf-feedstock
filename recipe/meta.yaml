@@ -1,5 +1,5 @@
 {% set name = "uxf" %}
-{% set version = "2.5.8" %}
+{% set version = "2.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/uxf-{{ version }}.tar.gz
-  sha256: c902409f47870ebeae74564a3c05cd909c404d23ee5490d7a4121ffa4f3a3f25
+  sha256: 01d9fdb1f573b0660ddc86d26c0e0fa885cc9438dbbe665612a055422a32ba4f
 
 build:
   noarch: python
